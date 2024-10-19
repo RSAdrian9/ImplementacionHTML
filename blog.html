@@ -4,19 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio - Adrián</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/navbar.css">
+    <link rel="stylesheet" href="/css/blog.css">
 </head>
 <body>
 
-    <!-- Barra de navegación -->
-    <nav>
-        <ul>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="assets/images/logo-blog-portfolio.png" alt="Logo de Adrián Ruiz">
+        </div>
+        <ul class="nav-links">
             <li><a href="/home.html">Inicio</a></li>
             <li><a href="/about-me.html">Sobre mí</a></li>
             <li><a href="/projects.html">Proyectos</a></li>
-            <li><a href="/blog.html">Blog</a></li>
+            <li><a href="/blog.html" class="active">Blog</a></li>
             <li><a href="/contact.html">Contacto</a></li>
         </ul>
+        <div class="navbar-buttons">
+            <button class="btn idioma">Idioma</button>
+            <button class="btn descargar-cv">Descargar CV</button>
+        </div>
     </nav>
 </body>
 </html>
