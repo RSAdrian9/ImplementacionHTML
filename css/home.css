@@ -1,219 +1,25 @@
-/* Estilos globales */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f2fdf8; /* Fondo claro */
-    color: #021009; /* Color del texto principal */
-    margin: 0;
-    padding: 0;
-}
+/* ---------------------------------------
+   SECCION PRINCIPAL (HERO)
+--------------------------------------- */
 
-nav {
-    background-color: #f2fdf8; /* Fondo verde claro, casi blanco */
-    padding: 10px 20px;
-    position: sticky;
-    top: 0;
-    z-index: 100;
-}
-
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-around;
-}
-
-nav ul li {
-    display: inline;
-}
-
-nav ul li a {
-    color: #021009;
-    text-decoration: none;
-    padding: 10px 20px;
-}
-
-nav ul li a:hover {
-    color: #021009;
-}
-
-/* Secciones */
-.section {
-    padding: 60px 20px;
-    text-align: center;
-}
-
-h1, h2, h3 {
-    color: #021009;
-}
-
-h2 {
-    font-size: 36px;
-    margin-bottom: 20px;
-}
-
-h3 {
-    font-size: 24px;
-}
-
-/* Sección de Inicio */
 .hero {
-    padding: 100px 20px;
-    color: #021009;
-}
-
-.hero h1 {
-    font-size: 48px;
-    margin-bottom: 10px;
-}
-
-.hero p {
-    font-size: 18px;
-}
-
-.buttons {
-    margin-top: 20px;
-}
-
-.buttons .btn {
-    background-color: #8bb3f2; /* Color secundario */
-    color: #021009;
-    padding: 10px 20px;
-    text-decoration: none;
-    margin: 10px;
-}
-
-.buttons .btn:hover {
-    background-color: #6d97e0;
-}
-
-/* Sección Sobre mí */
-.about-me {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.profile-photo {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    margin-right: 20px;
-}
-
-.bio p {
-    font-size: 16px;
-    line-height: 1.6;
-}
-
-/* Sección Proyectos */
-.project-grid {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.project-item {
-    background-color: #ffffff;
-    padding: 20px;
-    margin: 10px;
-    width: 30%;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-}
-
-.project-item h3 {
-    margin-bottom: 10px;
-}
-
-/* NAVBAR */
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f2fdf8; /* Fondo claro */
-}
-
-/* Estilos del Navbar */
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #f2fdf8; /* Fondo oscuro */
-    color: white;
-}
-
-.logo img {
-    width: 120px;
-    height: auto;
-}
-
-.nav-links {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-}
-
-.nav-links a {
-    text-decoration: none;
-    color: #021009;
-    font-size: 18px;
-    padding: 10px;
-    transition: color 0.3s ease;
-}
-
-.nav-links a:hover {
-    color: #24e68a; /* Hover Primario */
-}
-
-.navbar-buttons .btn {
-    background-color: #545deb; /* Botón azul */
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    margin-left: 10px;
-    cursor: pointer;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-}
-
-.navbar-buttons .btn:hover {
-    background-color: #8bb3f2; /* Hover Secundario */
-}
-
-.navbar-buttons .descargar-cv {
-    background-color: #24e68a; /* Color para el botón "Descargar CV" */
-}
-
-.navbar-buttons .descargar-cv:hover {
-    background-color: #21c77b; /* Hover para el botón "Descargar CV" */
-}
-
-
-/* Seccion principal */
-
-/* Estilos para la sección principal */
-.hero {
-    display: flex;
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente */
-    min-height: 100vh; /* Altura mínima de la sección: 100% de la ventana */
-    background-color: #f2fdf8; /* Fondo claro */
-    text-align: center; /* Centra el texto */
+    min-height: 100vh;
+    background-color: var(--color-fondo);
+    text-align: center;
 }
 
 .container {
-    max-width: 1200px; /* Limita el ancho máximo del contenedor */
+    max-width: 1200px;
     padding: 20px;
+    margin: 0 auto;
 }
 
 .main-text {
-    max-width: 600px; /* Limita el ancho máximo del texto */
-    margin: 0 auto; /* Centra el texto horizontalmente */
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 .main-text h1 {
@@ -243,44 +49,49 @@ body {
 }
 
 .btn-proyectos {
-    background-color: #24e68a; /* Verde */
+    background-color: var(--color-primario); /* Verde */
 }
 
 .btn-blog {
-    background-color: #545deb; /* Azul */
+    background-color: var(--color-acento); /* Azul */
 }
 
 .buttons a:hover {
-    opacity: 0.9; /* Efecto hover */
+    opacity: 0.9;
 }
 
+/* ---------------------------------------
+   SECCION SOBRE MI
+--------------------------------------- */
 
-/* Sección Proyectos */
-.section {
-    padding: 60px 20px;
-    background-color: #f5f5f5;
+.about-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
+.profile-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-right: 20px;
 }
 
-h2 {
-    text-align: center;
-    font-size: 2.2rem;
-    margin-bottom: 40px;
-    color: #333;
+.bio p {
+    font-size: 16px;
+    line-height: 1.6;
 }
 
-/* Grid para los proyectos */
+/* ---------------------------------------
+   SECCION PROYECTOS
+--------------------------------------- */
+
 .project-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 30px;
 }
 
-/* Estilos de cada proyecto */
 .project-item {
     background-color: white;
     padding: 20px;
@@ -294,7 +105,6 @@ h2 {
     transform: scale(1.05);
 }
 
-/* Imagen del proyecto */
 .project-image {
     max-width: 100%;
     height: auto;
@@ -314,10 +124,9 @@ h2 {
     margin-bottom: 20px;
 }
 
-/* Botón de detalles */
 .btn-detalles {
     padding: 10px 15px;
-    background-color: #545deb; /* Color del botón */
+    background-color: var(--color-acento); /* Color del botón */
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -326,5 +135,109 @@ h2 {
 }
 
 .btn-detalles:hover {
-    background-color: #3b46c1; /* Color más oscuro al hacer hover */
+    background-color: #3b46c1;
+}
+
+
+/* ---------------------------------------
+   SECCION HABILIDADES
+--------------------------------------- */
+
+#habilidades {
+    background-color: var(--color-fondo); /* Fondo de la sección */
+    padding: 40px 20px; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+
+.skills {
+    display: flex; /* Usar flexbox para alinear los grupos de habilidades */
+    justify-content: space-around; /* Espaciado entre grupos */
+    flex-wrap: wrap; /* Permitir que los grupos se envuelvan en pantallas más pequeñas */
+}
+
+.skill-group {
+    flex: 1 1 250px; /* Flexibilidad de los grupos */
+    margin: 15px; /* Margen entre grupos */
+    padding: 20px; /* Espaciado interno */
+    background-color: white; /* Fondo blanco para los grupos */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.skill-group h3 {
+    font-size: 1.5rem; /* Tamaño de fuente del subtítulo */
+    margin-bottom: 15px; /* Margen inferior */
+    color: var(--color-acento); /* Color del subtítulo */
+    text-align: center; /* Centrar el texto del subtítulo */
+}
+
+.skill-box {
+    display: flex; /* Usar flexbox para alinear los elementos de habilidades */
+    justify-content: center; /* Centrar habilidades dentro del contenedor */
+    flex-wrap: wrap; /* Permitir que los elementos se envuelvan */
+}
+
+.skill-box span {
+    background-color: var(--color-acento); /* Color de fondo de las habilidades */
+    color: white; /* Color del texto */
+    padding: 10px 15px; /* Espaciado interno */
+    margin: 5px; /* Margen entre habilidades */
+    border-radius: 5px; /* Bordes redondeados para las habilidades */
+    transition: background-color 0.3s ease; /* Transición para el hover */
+}
+
+.skill-box span:hover {
+    background-color: #3b46c1; /* Color de fondo al pasar el mouse */
+}
+
+/* ---------------------------------------
+   SECCION CONTACTO
+--------------------------------------- */
+
+#contacto {
+    background-color: var(--color-fondo); /* Fondo de la sección */
+    padding: 40px 20px; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.contact-container {
+    display: flex; /* Usar flexbox para alinear la información y el formulario */
+    justify-content: space-between; /* Espaciado entre elementos */
+    flex-wrap: wrap; /* Permitir que los elementos se envuelvan en pantallas más pequeñas */
+}
+
+.contact-info {
+    flex: 1 1 300px; /* Flexibilidad del contenedor de información */
+    margin-right: 20px; /* Margen derecho */
+}
+
+.contact-info h3 {
+    font-size: 1.5rem; /* Tamaño de fuente del subtítulo */
+    color: var(--color-acento); /* Color del subtítulo */
+}
+
+.contact-info p {
+    margin-bottom: 10px; /* Margen inferior */
+}
+
+.contact-info ul {
+    list-style: none; /* Sin viñetas */
+    padding: 0; /* Sin padding */
+}
+
+.contact-info li {
+    margin-bottom: 5px; /* Margen inferior entre elementos de la lista */
+}
+
+.contact-info a {
+    color: var(--color-acento); /* Color de los enlaces */
+    text-decoration: none; /* Sin subrayado */
+    transition: color 0.3s ease; /* Transición para el hover */
+}
+
+.contact-info a:hover {
+    color: #3b46c1; /* Color de los enlaces al pasar el mouse */
 }

@@ -1,0 +1,55 @@
+/* ---------------------------------------
+   ESTILOS DE LOS PROYECTOS
+--------------------------------------- */
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.project-item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.project-item:hover {
+    transform: scale(1.05);
+}
+
+.project-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.project-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.project-item p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.btn-detalles {
+    padding: 10px 15px;
+    background-color: var(--color-acento); /* Color del botón */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.btn-detalles:hover {
+    background-color: #3b46c1;
+}

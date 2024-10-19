@@ -1,0 +1,87 @@
+:root {
+    /* Colores principales */
+    --color-primario: #2FF88E;
+    --color-secundario: #83B4F9;
+    --color-acento: #4E4EF5;
+  
+    /* Colores hover */
+    --hover-primario: #23CF75;
+    --hover-secundario: #699AD3;
+  
+    /* Colores de estado */
+    --color-disabled: #BFDCD0;
+    --color-off: #B0B0B0;
+  
+    /* Otros colores si es necesario */
+    --color-texto: #000000;
+    --color-fondo: #f4fff4;
+}
+
+/* ---------------------------------------
+   ESTILOS GLOBALES BOTONES
+--------------------------------------- */
+
+.btn-proyectos {
+    background-color: var(--color-primario);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-proyectos:hover {
+    background-color: var(--hover-primario);
+  }
+  
+  .btn-blog {
+    background-color: var(--color-secundario);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-blog:hover {
+    background-color: var(--hover-secundario);
+  }
+  
+  /* Estado disabled */
+  .btn-disabled {
+    background-color: var(--color-disabled);
+    color: #666666;
+    cursor: not-allowed;
+  }
+
+/* ---------------------------------------
+   ESTILOS GLOBALES BODY
+--------------------------------------- */
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: var(--color-fondo); /* Fondo claro */
+    color: var(--color-texto); /* Color del texto principal */
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    color: var(--color-acento);
+  }
+  
+  a:hover {
+    color: var(--hover-secundario);
+  }
+
+  h2 {
+    text-align: center; /* Centra el texto horizontalmente */
+    font-size: 36px; /* Tamaño del título */
+    margin-bottom: 20px; /* Espacio inferior */
+    color: var(--color-texto); /* Color del texto principal */
+}
+
+  
+  

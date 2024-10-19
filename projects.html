@@ -4,19 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio - Adrián</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/navbar.css">
+    <link rel="stylesheet" href="/css/projects.css">
 </head>
 <body>
 
-    <!-- Barra de navegación -->
-    <nav>
-        <ul>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="assets/images/logo-blog-portfolio.png" alt="Logo de Adrián Ruiz">
+        </div>
+        <ul class="nav-links">
             <li><a href="/home.html">Inicio</a></li>
             <li><a href="/about-me.html">Sobre mí</a></li>
-            <li><a href="/projects.html">Proyectos</a></li>
+            <li><a href="/projects.html" class="active">Proyectos</a></li>
             <li><a href="/blog.html">Blog</a></li>
             <li><a href="/contact.html">Contacto</a></li>
         </ul>
+        <div class="navbar-buttons">
+            <button class="btn idioma">Idioma</button>
+            <button class="btn descargar-cv">Descargar CV</button>
+        </div>
     </nav>
+
+<!-- Sección Proyectos Destacados -->
+<section id="proyectos" class="section">
+    <div class="container">
+        <div class="project-grid">
+            <div class="project-item">
+                <img src="proyecto1.jpg" alt="Proyecto 1" class="project-image">
+                <h3>Proyecto Mazmorra</h3>
+                <p>Descripción breve del proyecto.</p>
+                <a href="#" class="btn btn-detalles">Ver repositorio</a>
+            </div>
+            <div class="project-item">
+                <img src="proyecto2.jpg" alt="Proyecto 2" class="project-image">
+                <h3>BusTracker</h3>
+                <p>Descripción breve del proyecto.</p>
+                <a href="#" class="btn btn-detalles">Ver repositorio</a>
+            </div>
+            <div class="project-item">
+                <img src="proyecto3.jpg" alt="Proyecto 3" class="project-image">
+                <h3>MarsTerra</h3>
+                <p>Descripción breve del proyecto.</p>
+                <a href="#" class="btn btn-detalles">Ver repositorio</a>
+            </div>
+            <!-- Agrega más proyectos según sea necesario -->
+        </div>
+    </div>
+</section>
 </body>
 </html>
