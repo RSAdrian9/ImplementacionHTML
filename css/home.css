@@ -201,26 +201,35 @@
     padding: 40px 20px; /* Espaciado interno */
     border-radius: 10px; /* Bordes redondeados */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centramos todo el contenido */
 }
 
 .contact-container {
     display: flex; /* Usar flexbox para alinear la información y el formulario */
-    justify-content: space-between; /* Espaciado entre elementos */
+    justify-content: center; /* Centramos los elementos horizontalmente */
     flex-wrap: wrap; /* Permitir que los elementos se envuelvan en pantallas más pequeñas */
+    max-width: 1000px; /* Ancho máximo para no extender demasiado en pantallas grandes */
+    width: 100%; /* Aseguramos que ocupe el ancho disponible */
 }
 
 .contact-info {
     flex: 1 1 300px; /* Flexibilidad del contenedor de información */
     margin-right: 20px; /* Margen derecho */
+    text-align: center; /* Centramos el contenido */
+    margin-bottom: 20px; /* Margen inferior para evitar solapamiento */
 }
 
 .contact-info h3 {
-    font-size: 1.5rem; /* Tamaño de fuente del subtítulo */
+    font-size: 1.8rem; /* Tamaño de fuente del subtítulo */
     color: var(--color-acento); /* Color del subtítulo */
+    margin-bottom: 20px; /* Margen inferior */
 }
 
 .contact-info p {
     margin-bottom: 10px; /* Margen inferior */
+    line-height: 1.6; /* Mejora la legibilidad */
 }
 
 .contact-info ul {
@@ -240,4 +249,16 @@
 
 .contact-info a:hover {
     color: #3b46c1; /* Color de los enlaces al pasar el mouse */
+}
+
+.contact-container .contact-info:last-child {
+    margin-right: 0; /* Eliminar el margen derecho del último contenedor */
+}
+
+/* ---------------------------------------
+   ESTILOS DEL FOOTER
+--------------------------------------- */
+
+.footer {
+    padding: 0px;
 }
