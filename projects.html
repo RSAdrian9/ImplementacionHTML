@@ -1,58 +1,78 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Adrián</title>
-    <link rel="stylesheet" href="/css/main.css">
-    <link rel="stylesheet" href="/css/navbar.css">
-    <link rel="stylesheet" href="/css/projects.css">
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio - Adrián</title>
+        <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="/css/navbar.css">
+        <link rel="stylesheet" href="/css/projects.css">
+        <link rel="stylesheet" href="/css/footer.css">
+    </head>
+    <body>
 
-    <!-- Navbar -->
-    <nav class="navbar">
-        <div class="logo">
-            <img src="assets/images/logo-blog-portfolio.png" alt="Logo de Adrián Ruiz">
-        </div>
-        <ul class="nav-links">
-            <li><a href="/home.html">Inicio</a></li>
-            <li><a href="/about-me.html">Sobre mí</a></li>
-            <li><a href="/projects.html" class="active">Proyectos</a></li>
-            <li><a href="/blog.html">Blog</a></li>
-            <li><a href="/contact.html">Contacto</a></li>
-        </ul>
-        <div class="navbar-buttons">
-            <button class="btn idioma">Idioma</button>
-            <button class="btn descargar-cv">Descargar CV</button>
-        </div>
-    </nav>
+        <!-- Navbar -->
+        <nav class="navbar">
+            <div class="logo">
+                <img src="assets/images/logo-blog-portfolio.png" alt="Logo de Adrián Ruiz">
+            </div>
+            <ul class="nav-links">
+                <li><a href="/home.html">Inicio</a></li>
+                <li><a href="/about-me.html">Sobre mí</a></li>
+                <li><a href="/projects.html" class="active">Proyectos</a></li>
+                <li><a href="/blog.html">Blog</a></li>
+                <li><a href="/contact.html">Contacto</a></li>
+            </ul>
+            <div class="navbar-buttons">
+                <button class="btn idioma">Idioma</button>
+                <button class="btn descargar-cv">Descargar CV</button>
+            </div>
+        </nav>
 
-<!-- Sección Proyectos Destacados -->
-<section id="proyectos" class="section">
-    <div class="container">
-        <div class="project-grid">
-            <div class="project-item">
-                <img src="proyecto1.jpg" alt="Proyecto 1" class="project-image">
-                <h3>Proyecto Mazmorra</h3>
-                <p>Descripción breve del proyecto.</p>
-                <a href="#" class="btn btn-detalles">Ver repositorio</a>
+        <!-- Sección Proyectos -->
+        <section id="proyectos" class="section">
+            <div class="container">
+                <div class="project-grid">
+                    <div class="project-item">
+                        <!--<img src="proyecto1.jpg" alt="Proyecto 1" class="project-image"> -->
+                        <h3>Proyecto Mazmorra</h3>
+                        <p>El primer proyecto serio, donde pude ​indagar y aprender por el mundo de la ​programación. Un proyecto básico en cmd, ​donde el usuario elige su propio ​destino.</p>
+                        <a href="https://github.com/RSAdrian9/Proyecto1-Trimestre.git" class="btn btn-detalles">Ver repositorio</a>
+                    </div>
+                    <div class="project-item">
+                        <!-- <img src="proyecto2.jpg" alt="Proyecto 2" class="project-image"> -->
+                        <h3>BusTracker</h3>
+                        <p>Este fue mi proyecto final realizado ​en el 1º curso del Grado Superior. ​Proyecto en solitario, basado en la ​conexión entre paradas y líneas de ​autobuses.</p>
+                        <a href="https://github.com/RSAdrian9/BusTracker-Project.git" class="btn btn-detalles">Ver repositorio</a>
+                    </div>
+                    <div class="project-item">
+                        <!-- <img src="proyecto3.jpg" alt="Proyecto 3" class="project-image"> -->
+                        <h3>MarsTerra</h3>
+                        <p>Proyecto realizado en el 2º curso del ​Grado Superior, junto a un ​compañero. La interfaz permite al ​usuario conversar con otro usuario ​med​iante un chat Socket.</p>
+                        <a href="https://github.com/ErichLeonardo/Marthterra.git" class="btn btn-detalles">Ver repositorio</a>
+                    </div>
+                </div>
             </div>
-            <div class="project-item">
-                <img src="proyecto2.jpg" alt="Proyecto 2" class="project-image">
-                <h3>BusTracker</h3>
-                <p>Descripción breve del proyecto.</p>
-                <a href="#" class="btn btn-detalles">Ver repositorio</a>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <ul class="footer-nav">
+                    <li><a href="/home.html">Inicio</a></li>
+                    <li><a href="/about-me.html">Sobre mí</a></li>
+                    <li><a href="/projects.html">Proyectos</a></li>
+                    <li><a href="/blog.html">Blog</a></li>
+                    <li><a href="/contact.html">Contacto</a></li>
+                </ul>
+                <div class="copyright">
+                    © 2024 Adrián Ruiz. Todos los derechos reservados.
+                </div>
+                <ul class="footer-policy">
+                    <li>Términos & Condiciones</li>
+                    <li>Política de privacidad</li>
+                </ul>
             </div>
-            <div class="project-item">
-                <img src="proyecto3.jpg" alt="Proyecto 3" class="project-image">
-                <h3>MarsTerra</h3>
-                <p>Descripción breve del proyecto.</p>
-                <a href="#" class="btn btn-detalles">Ver repositorio</a>
-            </div>
-            <!-- Agrega más proyectos según sea necesario -->
-        </div>
-    </div>
-</section>
-</body>
+        </footer>
+    </body>
 </html>

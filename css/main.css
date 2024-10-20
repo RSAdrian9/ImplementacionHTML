@@ -83,5 +83,23 @@
     color: var(--color-texto); /* Color del texto principal */
 }
 
+/* Asegura que el body siempre tenga al menos el 100% de altura */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* El contenedor principal (que rodea todo el contenido de la página) */
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* El wrapper ocupa al menos la altura completa de la ventana */
+}
+
+/* El contenido principal de la página */
+.main-content {
+  flex: 1; /* Hace que este contenido crezca y ocupe el espacio disponible */
+}
   
   

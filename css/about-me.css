@@ -1,0 +1,74 @@
+/* ---------------------------------------
+   PAGINA SOBRE MI
+--------------------------------------- */
+
+.about-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.bio p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* ---------------------------------------
+   SECCION HABILIDADES
+--------------------------------------- */
+
+#habilidades {
+    background-color: var(--color-fondo); /* Fondo de la sección */
+    padding: 40px 20px; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+
+.skills {
+    display: flex; /* Usar flexbox para alinear los grupos de habilidades */
+    justify-content: space-around; /* Espaciado entre grupos */
+    flex-wrap: wrap; /* Permitir que los grupos se envuelvan en pantallas más pequeñas */
+}
+
+.skill-group {
+    flex: 1 1 250px; /* Flexibilidad de los grupos */
+    margin: 15px; /* Margen entre grupos */
+    padding: 20px; /* Espaciado interno */
+    background-color: white; /* Fondo blanco para los grupos */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.skill-group h3 {
+    font-size: 1.5rem; /* Tamaño de fuente del subtítulo */
+    margin-bottom: 15px; /* Margen inferior */
+    color: var(--color-acento); /* Color del subtítulo */
+    text-align: center; /* Centrar el texto del subtítulo */
+}
+
+.skill-box {
+    display: flex; /* Usar flexbox para alinear los elementos de habilidades */
+    justify-content: center; /* Centrar habilidades dentro del contenedor */
+    flex-wrap: wrap; /* Permitir que los elementos se envuelvan */
+}
+
+.skill-box span {
+    background-color: var(--color-acento); /* Color de fondo de las habilidades */
+    color: white; /* Color del texto */
+    padding: 10px 15px; /* Espaciado interno */
+    margin: 5px; /* Margen entre habilidades */
+    border-radius: 5px; /* Bordes redondeados para las habilidades */
+    transition: background-color 0.3s ease; /* Transición para el hover */
+}
+
+.skill-box span:hover {
+    background-color: #3b46c1; /* Color de fondo al pasar el mouse */
+}
