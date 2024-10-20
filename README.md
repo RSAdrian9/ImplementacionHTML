@@ -25,7 +25,7 @@ Para ver el proyecto en acción, sigue estos pasos:
 
 1. **Clonar el Repositorio**:
    ```bash
-   git clone https://github.com/tu_usuario/nombre_del_repositorio.git
+   git clone https://github.com/RSAdrian9/ImplementacionHTML.git
 
 2. **Abrir el Archivo HTML**:
 Navega a la carpeta del proyecto y abre el archivo index.html en tu navegador preferido.
