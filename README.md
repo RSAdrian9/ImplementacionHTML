@@ -34,7 +34,7 @@ Navega a la carpeta del proyecto y abre el archivo index.html en tu navegador pr
 
 Para cualquier duda o comentario, no dudes en ponerte en contacto conmigo:
 
-### LinkedIn -> [Adrián Ruiz Sánchez](linkedin.com/in/adrián-ruiz-sánchez)
+### LinkedIn -> [Perfil de LinkedIn](https://www.linkedin.com/in/adrián-ruiz-sánchez)
 
-### Correo Electrónico -> [adrian.dev24@gmail.com](mailto:adrian.dev24@gmail.com)
+### Correo Electrónico -> [Mandar correo](mailto:adrian.dev24@gmail.com)
 
