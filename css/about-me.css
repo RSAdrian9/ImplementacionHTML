@@ -50,7 +50,7 @@
 .skill-group h3 {
     font-size: 1.5rem; /* Tamaño de fuente del subtítulo */
     margin-bottom: 15px; /* Margen inferior */
-    color: var(--color-acento); /* Color del subtítulo */
+    color: var(--color-titulo-habilidades); /* Color del subtítulo */
     text-align: center; /* Centrar el texto del subtítulo */
 }
 
@@ -61,14 +61,10 @@
 }
 
 .skill-box span {
-    background-color: var(--color-acento); /* Color de fondo de las habilidades */
+    background-color: var(--color-habilidades); /* Color de fondo de las habilidades */
     color: white; /* Color del texto */
-    padding: 10px 15px; /* Espaciado interno */
+    padding: 5px 10px; /* Espaciado interno */
     margin: 5px; /* Margen entre habilidades */
-    border-radius: 5px; /* Bordes redondeados para las habilidades */
+    border-radius: 15px; /* Bordes redondeados para las habilidades */
     transition: background-color 0.3s ease; /* Transición para el hover */
-}
-
-.skill-box span:hover {
-    background-color: #3b46c1; /* Color de fondo al pasar el mouse */
 }

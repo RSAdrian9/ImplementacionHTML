@@ -4,6 +4,10 @@
     --color-secundario: #83B4F9;
     --color-acento: #4E4EF5;
   
+    /* Colores secundarios */
+    --color-habilidades: #C68AFF; /* Morado suave */
+    --color-titulo-habilidades: #A352E3; /* Morado oscuro */
+  
     /* Colores hover */
     --hover-primario: #23CF75;
     --hover-secundario: #699AD3;
@@ -13,8 +17,8 @@
     --color-off: #B0B0B0;
   
     /* Otros colores si es necesario */
-    --color-texto: #000000;
-    --color-fondo: #f4fff4;
+    --color-texto: #021009;
+    --color-fondo: #f2fdf8;
 }
 
 /* ---------------------------------------
